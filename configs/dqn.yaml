@@ -1,0 +1,30 @@
+learning_rate: 0.0001
+gamma: 0.99
+epsilon_start: 1.0
+epsilon_end: 0.01
+epsilon_decay: 50000
+batch_size: 32
+
+# Replay buffer and training parameters
+replay_capacity: 10000
+replay_buffer_size: 10000  # For train_dqn.py compatibility
+max_episodes: 500
+max_episode: 500  # For train_dqn.py compatibility
+max_steps_per_episode: 1000
+max_step_per_episode: 1000  # For train_dqn.py compatibility
+target_update_freq: 10
+target_update: 10  # For train_dqn.py compatibility
+
+# Auto-play parameters
+avg_len_for_autoplay: 20
+auto_play_score: 5.0
+
+# Rendering parameters
+fps: 30
+width: 288
+height: 512
+pipe_gap: 120
+pipe_speed: 3
+
+
+

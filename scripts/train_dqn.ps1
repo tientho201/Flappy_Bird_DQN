@@ -1,0 +1,1 @@
+python -m training.train_dqn --config configs/dqn.yaml
